@@ -1,7 +1,7 @@
 terraform {
 
   cloud {
-    organization = "organization-name"
+    organization = "internal-server-error"
 
     workspaces {
       name = "learn-terraform-cloud"
