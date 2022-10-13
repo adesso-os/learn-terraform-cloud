@@ -1,13 +1,4 @@
 terraform {
-
-  cloud {
-    organization = "internal-server-error"
-
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
-  }
-
   required_providers {
     aws = {
       source  = "hashicorp/aws"
